@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZedHealth Buddy - Symptom Checker</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">ZedHealth Buddy</div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="features.html">Features</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="features">
+      <h2>Symptom Checker</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="images/heart-outline.svg" alt="Symptom Checker" class="icon icon-symptom" />
+          <h3>Describe Your Symptoms</h3>
+          <form>
+            <label for="symptoms">Describe your symptoms:</label><br>
+            <textarea id="symptoms" rows="5" cols="40"></textarea><br>
+            <button type="submit">Check</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Symptom Checker Tips</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Be Specific</h3>
+          <p>Describe your symptoms in detail for more accurate advice.</p>
+        </div>
+        <div class="card">
+          <h3>Track Duration</h3>
+          <p>Note how long you have had each symptom and if it is getting better or worse.</p>
+        </div>
+        <div class="card">
+          <h3>List All Symptoms</h3>
+          <p>Mention all symptoms, even if they seem unrelated.</p>
+        </div>
+        <div class="card">
+          <h3>Seek Help</h3>
+          <p>If symptoms are severe or worsening, contact a healthcare provider immediately.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Frequently Asked Questions</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Is this a diagnosis?</h3>
+          <p>No, this tool provides guidance but does not replace a professional diagnosis.</p>
+        </div>
+        <div class="card">
+          <h3>What if I have an emergency?</h3>
+          <p>Call emergency services or go to the nearest hospital immediately.</p>
+        </div>
+        <div class="card">
+          <h3>Can I use this for children?</h3>
+          <p>Yes, but always consult a doctor for children with serious symptoms.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>Trusted Resources</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>World Health Organization</h3>
+          <p><a href="https://www.who.int/health-topics/symptoms" target="_blank">WHO: Symptoms</a></p>
+        </div>
+        <div class="card">
+          <h3>Zambia Ministry of Health</h3>
+          <p><a href="https://www.moh.gov.zm/" target="_blank">MOH Zambia</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ZedHealth Buddy | Built for Zambia</p>
+  </footer>
+</body>
+</html>
